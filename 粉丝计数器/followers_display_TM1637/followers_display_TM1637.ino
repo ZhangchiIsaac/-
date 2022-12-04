@@ -14,8 +14,8 @@ GND -->  GND
 HTTPClient http;
 WiFiClient client;
     
-const char *ssid = "Freeway24G"; //这里填你家中的wifi名称
-const char *password = "13922898320";//这里填你家中的wifi密码
+const char *ssid = "ssid"; //这里填你家中的wifi名称
+const char *password = "password";//这里填你家中的wifi密码
 
 String UID  = "1715792681";  //改成自己的UID
 String followerUrl = "http://api.bilibili.com/x/relation/stat?vmid=" + UID;   // 获取粉丝数网址
